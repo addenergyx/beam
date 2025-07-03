@@ -115,6 +115,7 @@ dependencies {
   permitUnusedDeclared library.java.hadoop_client
   provided library.java.kafka_clients
 
+  testImplementation "org.conscrypt:conscrypt-openjdk-uber:2.5.2"
   testImplementation "org.apache.iceberg:iceberg-api:1.6.1"
   testImplementation "org.apache.iceberg:iceberg-core:1.6.1"
   testImplementation library.java.vendored_calcite_1_28_0
